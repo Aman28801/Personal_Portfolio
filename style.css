@@ -10,9 +10,9 @@
 }
 
 :root{
-    --sideBGColor:#040b14;
-    --themeColor:#00878E;
-    --iconBGColor:#2C2F3F;
+    --sideBGColor:#3B185F;
+    --themeColor:#80489C;
+    --iconBGColor:#3A4F7A;
     --stextColor:#525252;
     --bgColor:#F7F7F7;
 }
@@ -38,7 +38,7 @@ header .profile{
 
 header .profile img{
     width: 150px;
-    border-radius: 50%;
+    border-radius: 40%;
     border: 10px solid var(--iconBGColor);
 }
 
@@ -50,7 +50,7 @@ header .profile .social-icons a{
     display: inline-block;
     width: 36px;
     height: 36px;
-    border-radius: 50%;
+    border-radius: 40%;
     text-align: center;
     line-height: 37px;
     background-color: var(--iconBGColor);
@@ -125,7 +125,7 @@ header ,footer p a{
     background-color: var(--themeColor);
     text-align: center;
     line-height: 42px;
-    border-radius: 50%;
+    border-radius: 40%;
     box-shadow: 0 0 20px rgba(0,0,0,20%);
     display:none;
     z-index: 999;
@@ -169,7 +169,7 @@ main{
 #home{
     height: 100vh;
     width: 100%;
-    background-image: url(Images/profile.jpg);
+    background-image: url(Images/i.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -279,7 +279,7 @@ main{
     margin-top: -10px;
 }
 #about .about-col .info-col p{
-    color: var(--themeColor);
+    /* color: var(--themeColor); */
     font-size: 15px;
     letter-spacing: 0.5px;
     font-style: italic;
