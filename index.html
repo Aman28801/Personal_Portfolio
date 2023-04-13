@@ -46,7 +46,7 @@
         <section id="home">
             <div class="home-row">
                 <h1>Hi, This is <br>Aman<span>.</span></h1>
-                <p>I am a <span class="auto-input"></span></p>
+                <p>I am <span class="auto-input"></span></p>
             </div>
         </section>
         <!-- Home section end-->
@@ -200,13 +200,14 @@
                 <!-- right col -->
                 <div class="contact-right">
 
-                    <form action="">
+                    <form id ="contactForm" action="">
 
                         <input type="text" name="name" id="name" placeholder="Your Name">
                         <input type="email" name="email" id="email" placeholder="Your Email">
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send Message">
+                        <!-- <input id ="submit" class="btn" type="submit" value="Send Message"> -->
+                        <button type="submit" class="btn">Send Message</button>
 
                     </form>
 
@@ -221,7 +222,11 @@
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     
     <!-- Main JS File -->
-    <script src ="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script type="module" src="FirbaseConfig.js"></script>
+    <script type="module" src ="script.js"></script>
+    
     <script src="https://kit.fontawesome.com/3d9fc34e27.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>

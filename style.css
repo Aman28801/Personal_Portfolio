@@ -476,12 +476,22 @@ main{
 #contact .contact-row .contact-right textarea:focus{
     border: 2px solid var(--themeColor);
 }
-#contact .contact-row .contact-right input[type=submit]{
+/* #contact .contact-row .contact-right input[type=submit]{
     background-color: var(--themeColor);
     color: var(--bgColor);
     border: 2px solid var(--themeColor);
     font-size: 17px;
     font-weight: 400;
+    cursor: pointer;
+} */
+#contact .contact-row .contact-right .btn{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+    border: 2px solid var(--themeColor);
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 10px;
     cursor: pointer;
 }
 /* mobile view */
